@@ -174,3 +174,5 @@ YuNet: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yune
 Условия лицензии моделей приведены рядом с ними.
 "# -" 
 "# facial-recognition-for-enterprise" 
+
+

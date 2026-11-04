@@ -9,7 +9,7 @@ load_dotenv(ROOT / '.env')
 DATA = ROOT / 'data'
 DATA.mkdir(exist_ok=True)
 DB = DATA / 'access.sqlite3'
-TZ = ZoneInfo(os.getenv('TIMEZONE', 'Asia/Qyzylorda'))
+TZ = ZoneInfo(os.getenv('TIMEZONE', 'USA/New_York'))
 API_URL = os.getenv('API_URL', 'http://127.0.0.1:5000').rstrip('/')
 ADMIN_KEY = os.getenv('ADMIN_KEY', '')
 CAMERA_KEY = os.getenv('CAMERA_KEY', '')
